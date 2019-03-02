@@ -154,8 +154,8 @@ void setthucan2(toadothucan2 *tdspc, toadoran *toado) {
 	bool a = true;
 	while (a) {
 		for (int b = 0; b < sodot; b++) {
-			Random(tdthucan->X, 38);
-			Random(tdthucan->Y, 28);
+			Random(tdspc->X, 38);
+			Random(tdspc->Y, 28);
 			if (tdspc->X == toado[b].x&&tdspc->Y == toado[b].y || tdspc->X == 10 && tdspc->Y == 8 || tdspc->X == 10 && tdspc->Y == 9 || tdspc->X == 10 && tdspc->Y == 10 || tdspc->X == 10 && tdspc->Y == 22 || tdspc->X == 10 && tdspc->Y == 21 || tdspc->X == 10 && tdspc->Y == 20 || tdspc->X == 30 && tdspc->Y == 8 || tdspc->X == 30 && tdspc->Y == 9 || tdspc->X == 30 && tdspc->Y == 10 || tdspc->X == 30 && tdspc->Y == 22 || tdspc->X == 30 && tdspc->Y == 21 || tdspc->X == 30 && tdspc->Y == 20 || tdspc->X == 22 && tdspc->Y == 7 || tdspc->X == 21 && tdspc->Y == 7 || tdspc->X == 20 && tdspc->Y == 7 || tdspc->X == 19 && tdspc->Y == 7 || tdspc->X == 22 && tdspc->Y == 23 || tdspc->X == 21 && tdspc->Y == 23 || tdspc->X == 20 && tdspc->Y == 23 || tdspc->X == 19 && tdspc->Y == 23) {
 				Random(tdspc->X, 38);
 				Random(tdspc->Y, 28);
