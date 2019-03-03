@@ -32,6 +32,7 @@ int main() {
 				if ((int)ti % 10 == 0) {
 					thucandb(tdspc);
 				}
+				antd(toado,tdthucan,tdspc);
 				timdiemcao();
 				dichuyenran(toado);
 				switch (c1) {
