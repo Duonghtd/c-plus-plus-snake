@@ -136,6 +136,12 @@ void Random(int &soCanDat, int khoangGiaTri)
 	srand(time(0));
 	soCanDat = rand() % khoangGiaTri + 2;
 }
+void themduoi() {
+	if (them > 0) {
+		sodot += 1;
+		them -= 1;
+	}
+}
 void setthucan(toadothucan *tdthucan, toadoran *toado) {
 	bool a = true;
 	while (a) {
