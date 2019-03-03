@@ -33,6 +33,7 @@ int main() {
 					thucandb(tdspc);
 				}
 				antd(toado,tdthucan,tdspc);
+				themduoi();
 				timdiemcao();
 				dichuyenran(toado);
 				switch (c1) {
