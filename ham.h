@@ -164,15 +164,15 @@ void setthucan2(toadothucan2 *tdspc, toadoran *toado) {
 		}
 	}
 }
-void antd(int sodotcongthem, toadoran *toado, int toadothucanx, int toadothucany) {
-	if (toadothucanx == toado->x &&toadothucany == toado->y) {
-		if (tdspct == false) {
-			setthucan(tdthucan, toado);
-		}
-		else {
-			setthucan2(tdspc, toado);
-		}
-		sodot += sodotcongthem;
-		diem += sodotcongthem;
+void antd( toadoran *toado,toadothucan *tdthucan,toadothucan2 *tdspc) {
+	if (tdthucan->X == toado[0].x &&tdthucan->Y == toado[0].y) {
+		setthucan(tdthucan, toado);
+		sodot += 1;
+		diem += 1;
+	}
+	else if (tdspc->X == toado[0].x&&tdspc->Y == toado[0].y) {
+		setthucan2(tdspc, toado);
+		sodot += 5;
+		diem += 5;
 	}
 }
