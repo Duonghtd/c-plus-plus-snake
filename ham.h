@@ -140,11 +140,11 @@ void setthucan(toadothucan *tdthucan, toadoran *toado) {
 	bool a = true;
 	while (a) {
 		for (int b = 0; b < sodot; b++) {
-			Random(tdthucan->X, 38);
-			Random(tdthucan->Y, 28);
+			Random(tdthucan->X, 37);
+			Random(tdthucan->Y, 27);
 			if (tdthucan->X == toado[b].x&&tdthucan->Y == toado[b].y||tdthucan->X==10&&tdthucan->Y==8 || tdthucan->X == 10 && tdthucan->Y == 9 || tdthucan->X == 10 && tdthucan->Y == 10 || tdthucan->X == 10 && tdthucan->Y == 22 || tdthucan->X == 10 && tdthucan->Y == 21 || tdthucan->X == 10 && tdthucan->Y == 20 || tdthucan->X == 30 && tdthucan->Y == 8 || tdthucan->X == 30 && tdthucan->Y == 9 || tdthucan->X == 30 && tdthucan->Y == 10 || tdthucan->X == 30 && tdthucan->Y == 22 || tdthucan->X == 30 && tdthucan->Y == 21 || tdthucan->X == 30 && tdthucan->Y == 20 || tdthucan->X == 22 && tdthucan->Y == 7 || tdthucan->X == 21 && tdthucan->Y == 7 || tdthucan->X == 20 && tdthucan->Y == 7 || tdthucan->X == 19 && tdthucan->Y == 7 || tdthucan->X == 22 && tdthucan->Y == 23 || tdthucan->X == 21 && tdthucan->Y == 23 || tdthucan->X == 20 && tdthucan->Y == 23 || tdthucan->X == 19 && tdthucan->Y == 23) {
-				Random(tdthucan->X, 38);
-				Random(tdthucan->Y, 28);
+				Random(tdthucan->X, 37);
+				Random(tdthucan->Y, 27);
 			}
 			else { a = false; }
 		}
@@ -154,11 +154,11 @@ void setthucan2(toadothucan2 *tdspc, toadoran *toado) {
 	bool a = true;
 	while (a) {
 		for (int b = 0; b < sodot; b++) {
-			Random(tdspc->X, 38);
-			Random(tdspc->Y, 28);
+			Random(tdspc->X, 37);
+			Random(tdspc->Y, 27);
 			if (tdspc->X == toado[b].x&&tdspc->Y == toado[b].y || tdspc->X == 10 && tdspc->Y == 8 || tdspc->X == 10 && tdspc->Y == 9 || tdspc->X == 10 && tdspc->Y == 10 || tdspc->X == 10 && tdspc->Y == 22 || tdspc->X == 10 && tdspc->Y == 21 || tdspc->X == 10 && tdspc->Y == 20 || tdspc->X == 30 && tdspc->Y == 8 || tdspc->X == 30 && tdspc->Y == 9 || tdspc->X == 30 && tdspc->Y == 10 || tdspc->X == 30 && tdspc->Y == 22 || tdspc->X == 30 && tdspc->Y == 21 || tdspc->X == 30 && tdspc->Y == 20 || tdspc->X == 22 && tdspc->Y == 7 || tdspc->X == 21 && tdspc->Y == 7 || tdspc->X == 20 && tdspc->Y == 7 || tdspc->X == 19 && tdspc->Y == 7 || tdspc->X == 22 && tdspc->Y == 23 || tdspc->X == 21 && tdspc->Y == 23 || tdspc->X == 20 && tdspc->Y == 23 || tdspc->X == 19 && tdspc->Y == 23) {
-				Random(tdspc->X, 38);
-				Random(tdspc->Y, 28);
+				Random(tdspc->X, 37);
+				Random(tdspc->Y, 27);
 			}
 			else { a = false; }
 		}
