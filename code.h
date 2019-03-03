@@ -116,8 +116,6 @@ void dichuyenran(toadoran *toado) {
 void thucan(toadothucan *tdthucan,toadoran *toado) {
 	textcolor(14);
 	gotoxy(tdthucan->X, tdthucan->Y); cout << "*";
-	antd(1,toado,tdthucan->X,tdthucan->Y);
-	
 }
 void t1(toadoran *toado){
 	
@@ -402,5 +400,4 @@ void xulytocdo(toadoran * toado) {
 void thucandb(toadothucan2 *tdspc) {
 	textcolor(54);
 	gotoxy(tdspc->X, tdspc->Y); cout << "*";
-	antd(5, toado,tdspc->X, tdspc->Y);
 }
